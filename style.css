@@ -1,11 +1,6 @@
 body{
     background: rgb(255, 255, 0);
 }
-.img-logo{
-    display: inline-block;
-    width: 100px;
-    padding-right: auto;
-}
 .titulo{
     color: green;
     background: rgb(245, 244, 235);
@@ -15,9 +10,20 @@ body{
     justify-content: space-around;
     align-items: center;
 }
-.cor-do-titulo{
+.titulo-img{
+    display: inline-block;
+    width: 100px;
+    padding-right: auto;
+}
+.titulo-pao-puro{
     text-decoration: none;
     color: black;
+}
+.titulo-cor{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
 }
 .texto{
     display: flex;
@@ -61,15 +67,30 @@ body{
 .alinhamento-sonho{
     display: flex;
     justify-content: flex-end;
-    margin-right: 340px;
+    margin-right: 310px;
 }
 .img-sonho{
     height: 300px;
     width: 300px;
+    margin-left: 100px;
 
 }
 .alinhamento-img-sonho{
     display:  flex;
     justify-content: flex-end;
     margin-right: 190px;
+    margin-bottom: 10px;
+}
+.descricao-img-sonho{
+    background: rgb(245, 244, 235);
+    font-size: 20px;
+    padding: 60px;
+    margin-left: 190px;
+    margin-top: 50px;
+    margin-bottom: 50px ;
+}
+.alinhamento-preco-sonho{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 270px;
 }
